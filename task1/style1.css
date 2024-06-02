@@ -1,0 +1,64 @@
+/* Styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+}
+
+#leaf1 {
+    width: 50px;
+    height: 200px;
+    background:linear-gradient(blue,purple);
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    opacity: .8;
+}
+#leaf2 {
+    width: 50px;
+    height: 200px;
+    background:linear-gradient(red,rgb(255, 130, 130));
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    transform: rotate(90deg);
+    opacity: .8;
+}
+
+#leaf3 {
+    width: 50px;
+    height: 200px;
+    background:linear-gradient(yellow,orange);
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    transform: rotate(135deg);
+    opacity: .8;
+}
+#leaf4 {
+    width: 50px;
+    height: 200px;
+    background:linear-gradient(blue,brown);
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    transform: rotate(50deg);
+    opacity: .8;
+}
+
+/* Note:-Color of the elements can slightly different  */

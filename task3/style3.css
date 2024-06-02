@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+table{
+    border: 1px solid white;
+    text-align: center;
+}
+.heading{
+    background-color: gray;
+    color: white;
+
+    
+}
+.Marketing{
+    background-color: rgb(85, 135, 234);
+    padding: 2px;
+}
+.Sales{
+    background-color: aqua;
+}
+.Products{
+    background-color: pink;
+}
